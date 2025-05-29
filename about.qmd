@@ -1,0 +1,12 @@
+---
+title: "About Me"
+---
+
+## Background
+[Your education/career journey]
+
+## Interests
+- Interest 1
+- Interest 2
+
+![Hobby Photo](images/hobby.jpg){width=300px}

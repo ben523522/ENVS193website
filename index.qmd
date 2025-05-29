@@ -1,0 +1,12 @@
+---
+title: "Your Name"
+description: "Your Professional Website"
+---
+
+![Profile Photo](images/your-photo.jpg){.circle width=200px}
+
+Welcome to my website! I'm a [your profession/student] specializing in [your field].
+
+## Quick Links
+- [About Me](about.qmd)
+- [My Projects](projects.qmd)
