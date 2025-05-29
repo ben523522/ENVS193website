@@ -2,6 +2,7 @@
 title: "Ben Baur"
 ---
 
+```{=html}
 <style>
 /* Homepage CSS */
 .profile-img {
@@ -47,28 +48,30 @@ title: "Ben Baur"
   background-color: #1a252f;
 }
 </style>
+```
 
-<div id="homepage-content">
-  <img src="images/headshot.jpg" alt="Ben Baur" class="profile-img">
-  
-  <h1>Ben Baur</h1>
-  
-  <p>Environmental Science student at UC Santa Barbara</p>
-  
-  <div class="home-links">
-    <a href="about.html">About Me</a> | 
-    <a href="projects.html">Projects</a> | 
-    <a href="#contact">Contact</a>
-  </div>
-  
-  <section id="contact">
-    <h2>Contact</h2>
-    <ul class="contact-list">
-      <li>Email: bbaur@example.com</li>
-      <li>LinkedIn: <a href="www.linkedin.com/in/benjamin-baur-b37171360">linkedin.com/in/benbaur</a></li>
-      <li>GitHub: <a href="https://github.com/ben523522">github.com/ben523522</a></li>
-    </ul>
-  </section>
+::: {#homepage-content}
+<img src="images/headshot.jpg" alt="Ben Baur" class="profile-img"/>
 
-  <a href="resume.pdf" class="resume-link" download>Download My Resume</a>
-</div>
+<h1>Ben Baur</h1>
+
+<p>Environmental Science student at UC Santa Barbara</p>
+
+<section id="contact">
+
+<h2>Contact</h2>
+
+<ul class="contact-list">
+
+<li>Email: bbaur\@example.com</li>
+
+<li>LinkedIn: <a href="www.linkedin.com/in/benjamin-baur-b37171360">linkedin.com/in/benbaur</a></li>
+
+<li>GitHub: <a href="https://github.com/ben523522">github.com/ben523522</a></li>
+
+</ul>
+
+</section>
+
+<a href="resume.pdf" class="resume-link" download>Download My Resume</a>
+:::

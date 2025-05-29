@@ -18,14 +18,14 @@
     "href": "index.html",
     "title": "Ben Baur",
     "section": "",
-    "text": "Ben Baur\n\n\nEnvironmental Science student at UC Santa Barbara\n\n\n&lt;a href=\"about.html\"&gt;About Me&lt;/a&gt; | \n&lt;a href=\"projects.html\"&gt;Projects&lt;/a&gt; | \n&lt;a href=\"#contact\"&gt;Contact&lt;/a&gt;\n\n\n\nContact\n\n\n\nEmail: bbaur@example.com\n\n\nLinkedIn: linkedin.com/in/benbaur\n\n\nGitHub: github.com/ben523522\n\n\n\nDownload My Resume"
+    "text": "Ben Baur\n\n\nEnvironmental Science student at UC Santa Barbara\n\n\n\nContact\n\n\n\nEmail: bbaur@example.com\n\n\nLinkedIn: linkedin.com/in/benbaur\n\n\nGitHub: github.com/ben523522\n\n\n\nDownload My Resume"
   },
   {
     "objectID": "about.html",
     "href": "about.html",
     "title": "About Me",
     "section": "",
-    "text": "My Story\n\n\nI am from Santa Barbara originally and graduated from Santa Barbara High School. I got interested in environmental science as a kid when I used to go to earth day every year and learn about the world. I also enjoyed the many great places to be outdoors in the area and in other parts of California. My favorite thing about Santa Barbara are the sunsets from Sands Beach in the winter.\n\n\n\n\n\n\nInterests\n\n\nI love to explore outdoors, from hiking and biking to skiing and swimming - I enjoy it all.\n\n\n \n\n\n\nCooking\n\n\nOne of my favorite pastimes is making BBQ on the grill outside my student housing. From tacos to ribs to steaks - I cook it all!"
+    "text": "My Story\n\n\nI grew up in Santa Barbara and graduated from SB High School. My interest in environmental science started with our local Earth Day events, where I loved learning about nature. Living here also gave me plenty of time outdoors—hiking, beach trips, and watching winter sunsets at Sands Beach. Those experiences made me want to study and protect California’s environment.\n\n\n\n\n\n\nInterests\n\n\nI love to explore outdoors, especially with friends. Hiking and biking to skiing and swimming - I enjoy it all.\n\n\n \n\n\n\nCooking\n\n\nOne of my favorite pastimes is making BBQ on the grill outside my student housing. From tacos to ribs to steaks - I grill it all!"
   },
   {
     "objectID": "projects.html",
@@ -40,5 +40,19 @@
     "title": "My Projects",
     "section": "",
     "text": "placeholder blah blah blahhhhh"
+  },
+  {
+    "objectID": "exploration.html",
+    "href": "exploration.html",
+    "title": "exploration",
+    "section": "",
+    "text": "placeholdersdsdf"
+  },
+  {
+    "objectID": "exploration.html#exploring-creeks",
+    "href": "exploration.html#exploring-creeks",
+    "title": "exploration",
+    "section": "",
+    "text": "placeholdersdsdf"
   }
 ]

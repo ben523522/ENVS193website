@@ -6,14 +6,18 @@ website:
   title: "Ben Baur"
   navbar:
     left:
+      - href: index.html
+        text: Home
       - href: about.html
         text: About
       - href: projects.html
         text: Projects
-    background: "dark"  # Navbar color
-    primary: "teal"     # Highlight color
+      - href: exploration.html
+        text: Exploration
+    background: "dark"
+    primary: "teal"
 
 format:
   html:
-    theme: cosmo        
+    theme: cosmo
     css: styles.css

@@ -41,7 +41,7 @@ title: "About Me"
 
 <div class="about-section">
   <h2>My Story</h2>
-  <p>I am from Santa Barbara originally and graduated from Santa Barbara High School. I got interested in environmental science as a kid when I used to go to earth day every year and learn about the world. I also enjoyed the many great places to be outdoors in the area and in other parts of California. My favorite thing about Santa Barbara are the sunsets from Sands Beach in the winter.</p>
+  <p>I grew up in Santa Barbara and graduated from SB High School. My interest in environmental science started with our local Earth Day events, where I loved learning about nature. Living here also gave me plenty of time outdoors—hiking, beach trips, and watching winter sunsets at Sands Beach. Those experiences made me want to study and protect California’s environment.</p>
   
 <div class="photo-container">
   <img src="images/about1.jpg" alt="Santa Barbara sunset" class="about-img single-img">
@@ -50,7 +50,7 @@ title: "About Me"
 
 <div class="about-section">
   <h2>Interests</h2>
-  <p>I love to explore outdoors, from hiking and biking to skiing and swimming - I enjoy it all.</p>
+  <p>I love to explore outdoors, especially with friends. Hiking and biking to skiing and swimming - I enjoy it all.</p>
   
 <div class="photo-container">
   <img src="images/about2.jpg" alt="Hiking adventure" class="about-img double-img">
@@ -60,7 +60,7 @@ title: "About Me"
 
 <div class="about-section">
   <h2>Cooking</h2>
-  <p>One of my favorite pastimes is making BBQ on the grill outside my student housing. From tacos to ribs to steaks - I cook it all!</p>
+  <p>One of my favorite pastimes is making BBQ on the grill outside my student housing. From tacos to ribs to steaks - I grill it all!</p>
   
 <div class="photo-container">
   <img src="images/about4.jpg" alt="Grill setup" class="about-img double-img">
