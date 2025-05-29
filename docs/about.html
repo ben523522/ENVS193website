@@ -131,36 +131,77 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>/* About Page Styling */ .about-section { margin-bottom: 3rem; padding-bottom: 2rem; border-bottom: 1px solid #eee; }</p>
-<p>.photo-container { display: flex; flex-wrap: wrap; gap: 1rem; margin: 1.5rem 0; }</p>
-<p>.about-img { border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.1); width: 100%; max-width: 400px; height: auto; }</p>
-<p>.single-img { width: 100%; }</p>
-<p>.double-img { width: calc(50% - 0.5rem); }</p>
-<span class="citation" data-cites="media">@media</span> (max-width: 768px) { .double-img { width: 100%; } }
+<style>
+.about-section {
+  margin-bottom: 3rem;
+  padding-bottom: 2rem;
+  border-bottom: 1px solid #eee;
+}
+
+.photo-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin: 1.5rem 0;
+}
+
+.about-img {
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  width: 100%;
+  max-width: 400px;
+  height: auto;
+}
+
+.single-img {
+  width: 100%;
+}
+
+.double-img {
+  width: calc(50% - 0.5rem);
+}
+
+@media (max-width: 768px) {
+  .double-img {
+    width: 100%;
+  }
+}
+</style>
 <div class="about-section">
-## Home I am from Santa Barbara originally and graduated from Santa Barbara High School. I have always enjoyed living here - love the beaches and mountains, great weather, and most especially the Mexican food. I particularly like the sunsets in winter.
+<h2 class="anchored">
+Home
+</h2>
+<p>
+I am from Santa Barbara originally and graduated from Santa Barbara High School. I have always enjoyed living here - love the beaches and mountains, great weather, and most especially the Mexican food. I partiularly like the sunsets from Sands beach in the winter.
+</p>
 <div class="photo-container">
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="images/about1.jpg" class="about-img single-img img-fluid figure-img"></p>
-<figcaption>Santa Barbara sunset</figcaption>
-</figure>
-</div>
+<pre><code>&lt;img src="images/about1.jpg" alt="Santa Barbara sunset" class="about-img single-img"&gt;</code></pre>
 </div>
 </div>
 <div class="about-section">
-## Interests I love to explore outdoors, from hiking and biking to skiing and swimming - I enjoy it all.
+<h2 class="anchored">
+Interests
+</h2>
+<p>
+I love to explore outdoors, from hiking and biking to skiing and swimming - I enjoy it all.
+</p>
 <div class="photo-container">
-<img src="images/about2.jpg" class="about-img double-img img-fluid" alt="Hiking adventure"> <img src="images/about3.jpg" class="about-img double-img img-fluid" alt="Beach day">
+<pre><code>&lt;img src="images/about2.jpg" alt="Hiking adventure" class="about-img double-img"&gt;
+&lt;img src="images/about3.jpg" alt="Beach day" class="about-img double-img"&gt;</code></pre>
 </div>
 </div>
 <div class="about-section">
-## Cooking One of my favorite pastimes is making BBQ on the grill outside my student housing. From tacos to ribs to steaks - I cook it all!
+<h2 class="anchored">
+Cooking
+</h2>
+<p>
+One of my favorite pastimes is making BBQ on the grill outside my student housing. From tacos to ribs to steaks - I cook it all!
+</p>
 <div class="photo-container">
-<img src="images/about4.jpg" class="about-img double-img img-fluid" alt="Grill setup"> <img src="images/about5.jpg" class="about-img double-img img-fluid" alt="BBQ results">
+<pre><code>&lt;img src="images/about4.jpg" alt="Grill setup" class="about-img double-img"&gt;
+&lt;img src="images/about5.jpg" alt="BBQ results" class="about-img double-img"&gt;</code></pre>
 </div>
 </div>
-<p>```</p>
 
 
 

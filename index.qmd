@@ -2,11 +2,11 @@
 title: "Ben Baur"
 ---
 
-<style>
-/* Profile image styling */
+```{css}
+/* Homepage Styling */
 .profile-img {
-  width: 250px;
-  height: 250px;
+  width: 150px;
+  height: 150px;
   border-radius: 50%;
   object-fit: cover;
   border: 3px solid #2c3e50;
@@ -14,7 +14,6 @@ title: "Ben Baur"
   margin: 0 auto 1rem;
 }
 
-/* Text styling */
 #homepage-header {
   text-align: center;
   max-width: 600px;
@@ -25,31 +24,3 @@ title: "Ben Baur"
 .home-links {
   margin: 1.5rem 0;
 }
-
-.contact-list {
-  list-style: none;
-  padding-left: 0;
-}
-</style>
-
-<div id="homepage-header">
-  <img src="images/headshot.jpg" alt="Ben Baur" class="profile-img">
-  
-  <h1>Ben Baur</h1>
-  
-  <p>Environmental science at UC Santa Barbara</p>
-  
-  
-</div>
-
-<section id="contact">
-  <h2>Contact</h2>
-  <ul class="contact-list">
-    <li>Email: bbaur@example.com</li>
-    <li>LinkedIn: <a href="https://linkedin.com/in/benbaur">linkedin.com/in/benbaur</a></li>
-    <li>GitHub: <a href="https://github.com/ben523522">github.com/ben523522</a></li>
-  </ul>
-</section>
-
-
-

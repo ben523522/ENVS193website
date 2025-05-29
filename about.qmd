@@ -2,8 +2,7 @@
 title: "About Me"
 ---
 
-```{css}
-/* About Page Styling */
+<style>
 .about-section {
   margin-bottom: 3rem;
   padding-bottom: 2rem;
@@ -38,4 +37,32 @@ title: "About Me"
     width: 100%;
   }
 }
-<div class="about-section"> ## Home I am from Santa Barbara originally and graduated from Santa Barbara High School. I have always enjoyed living here - love the beaches and mountains, great weather, and most especially the Mexican food. I particularly like the sunsets in winter.<div class="photo-container"> ![Santa Barbara sunset](images/about1.jpg){.about-img .single-img} </div> </div><div class="about-section"> ## Interests I love to explore outdoors, from hiking and biking to skiing and swimming - I enjoy it all.<div class="photo-container"> ![Hiking adventure](images/about2.jpg){.about-img .double-img} ![Beach day](images/about3.jpg){.about-img .double-img} </div> </div><div class="about-section"> ## Cooking One of my favorite pastimes is making BBQ on the grill outside my student housing. From tacos to ribs to steaks - I cook it all!<div class="photo-container"> ![Grill setup](images/about4.jpg){.about-img .double-img} ![BBQ results](images/about5.jpg){.about-img .double-img} </div> </div> ```
+</style>
+
+<div class="about-section">
+  <h2>My Story</h2>
+  <p>I am from Santa Barbara originally and graduated from Santa Barbara High School. I got interested in environmental science as a kid when I used to go to earth day every year and learn about the world. I also enjoyed the many great places to be outdoors in the area and in other parts of California. My favorite thing about Santa Barbara are the sunsets from Sands Beach in the winter.</p>
+  
+<div class="photo-container">
+  <img src="images/about1.jpg" alt="Santa Barbara sunset" class="about-img single-img">
+</div>
+
+
+<div class="about-section">
+  <h2>Interests</h2>
+  <p>I love to explore outdoors, from hiking and biking to skiing and swimming - I enjoy it all.</p>
+  
+<div class="photo-container">
+  <img src="images/about2.jpg" alt="Hiking adventure" class="about-img double-img">
+  <img src="images/about3.jpg" alt="Beach day" class="about-img double-img">
+</div>
+
+
+<div class="about-section">
+  <h2>Cooking</h2>
+  <p>One of my favorite pastimes is making BBQ on the grill outside my student housing. From tacos to ribs to steaks - I cook it all!</p>
+  
+<div class="photo-container">
+  <img src="images/about4.jpg" alt="Grill setup" class="about-img double-img">
+  <img src="images/about5.jpg" alt="BBQ results" class="about-img double-img">
+</div>
