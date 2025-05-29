@@ -1,5 +1,19 @@
 project:
-  title: "WebsiteBenBaur"
+  type: website
+  output-dir: docs
 
-editor: visual
+website:
+  title: "Ben Baur"
+  navbar:
+    left:
+      - href: about.html
+        text: About
+      - href: projects.html
+        text: Projects
+    background: "dark"  # Navbar color
+    primary: "teal"     # Highlight color
 
+format:
+  html:
+    theme: cosmo        
+    css: styles.css

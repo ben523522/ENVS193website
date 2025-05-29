@@ -1,43 +1,55 @@
 ---
-title: ""  # Empty title removes default heading
+title: "Ben Baur"
 ---
 
-```{css}
-/* CSS ONLY for this homepage */
+<style>
+/* Profile image styling */
+.profile-img {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid #2c3e50;
+  display: block;
+  margin: 0 auto 1rem;
+}
+
+/* Text styling */
 #homepage-header {
   text-align: center;
   max-width: 600px;
   margin: 2rem auto;
-  font-family: Arial, sans-serif;
-}
-
-#homepage-header img {
-  width: 200px; 
-  height: 200px;
-  object-fit: cover;
-  border-radius: 50%;
-  border: 3px solid #2c3e50;
-}
-
-#homepage-header h1 {
-  color: #2c3e50;
-  margin: 1rem 0 0.5rem;
-  font-size: 2.3rem;
-}
-
-#homepage-header p {
-  font-size: 1.1rem;
-  line-height: 1.5;
-  color: #34495e;
-  margin-bottom: 1.5rem;
+  font-family: 'Arial', sans-serif;
 }
 
 .home-links {
-  margin-top: 1rem;
+  margin: 1.5rem 0;
 }
-<div id="homepage-header"> ![Ben Baur](images/headshot.jpg)
 
-Ben Baur
-Environmental Science student at UC Santa Barbara specializing in marine ecosystem conservation. Combining data analysis with fieldwork to develop sustainable solutions for coastal communities.
+.contact-list {
+  list-style: none;
+  padding-left: 0;
+}
+</style>
 
-<div class="home-links"> [About Me](about.qmd) | [Projects](projects.qmd) | [Contact](#contact) </div> </div><section id="contact"> ## Contact - Email: bbaur@example.com - LinkedIn: [linkedin.com/in/benbaur](https://linkedin.com/in/benbaur) - GitHub: [github.com/ben523522](https://github.com/ben523522) </section> ```
+<div id="homepage-header">
+  <img src="images/headshot.jpg" alt="Ben Baur" class="profile-img">
+  
+  <h1>Ben Baur</h1>
+  
+  <p>Environmental science at UC Santa Barbara</p>
+  
+  
+</div>
+
+<section id="contact">
+  <h2>Contact</h2>
+  <ul class="contact-list">
+    <li>Email: bbaur@example.com</li>
+    <li>LinkedIn: <a href="https://linkedin.com/in/benbaur">linkedin.com/in/benbaur</a></li>
+    <li>GitHub: <a href="https://github.com/ben523522">github.com/ben523522</a></li>
+  </ul>
+</section>
+
+
+

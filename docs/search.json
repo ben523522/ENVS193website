@@ -1,0 +1,44 @@
+[
+  {
+    "objectID": "WebsiteBenBaur.html",
+    "href": "WebsiteBenBaur.html",
+    "title": "WebsiteBenBaur",
+    "section": "",
+    "text": "Quarto enables you to weave together content and executable code into a finished document. To learn more about Quarto see https://quarto.org.\n\n1 + 1\n\n[1] 2"
+  },
+  {
+    "objectID": "WebsiteBenBaur.html#quarto",
+    "href": "WebsiteBenBaur.html#quarto",
+    "title": "WebsiteBenBaur",
+    "section": "",
+    "text": "Quarto enables you to weave together content and executable code into a finished document. To learn more about Quarto see https://quarto.org.\n\n1 + 1\n\n[1] 2"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Ben Baur",
+    "section": "",
+    "text": "Ben Baur\n\n\nEnvironmental science at UC Santa Barbara\n\n\n\n\nContact\n\n\n\nEmail: bbaur@example.com\n\n\nLinkedIn: linkedin.com/in/benbaur\n\n\nGitHub: github.com/ben523522"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About Me",
+    "section": "",
+    "text": "/* About Page Styling */ .about-section { margin-bottom: 3rem; padding-bottom: 2rem; border-bottom: 1px solid #eee; }\n.photo-container { display: flex; flex-wrap: wrap; gap: 1rem; margin: 1.5rem 0; }\n.about-img { border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.1); width: 100%; max-width: 400px; height: auto; }\n.single-img { width: 100%; }\n.double-img { width: calc(50% - 0.5rem); }\n@media (max-width: 768px) { .double-img { width: 100%; } }\n\n## Home I am from Santa Barbara originally and graduated from Santa Barbara High School. I have always enjoyed living here - love the beaches and mountains, great weather, and most especially the Mexican food. I particularly like the sunsets in winter.\n\n\n\n\nSanta Barbara sunset\n\n\n\n\n\n## Interests I love to explore outdoors, from hiking and biking to skiing and swimming - I enjoy it all.\n\n \n\n\n\n## Cooking One of my favorite pastimes is making BBQ on the grill outside my student housing. From tacos to ribs to steaks - I cook it all!\n\n \n\n\n```"
+  },
+  {
+    "objectID": "projects.html",
+    "href": "projects.html",
+    "title": "My Projects",
+    "section": "",
+    "text": "placeholder blah blah blahhhhh"
+  },
+  {
+    "objectID": "projects.html#current-work",
+    "href": "projects.html#current-work",
+    "title": "My Projects",
+    "section": "",
+    "text": "placeholder blah blah blahhhhh"
+  }
+]
