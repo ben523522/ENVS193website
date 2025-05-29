@@ -1,12 +1,43 @@
 ---
-title: "Your Name"
-description: "Your Professional Website"
+title: ""  # Empty title removes default heading
 ---
 
-![Profile Photo](images/your-photo.jpg){.circle width=200px}
+```{css}
+/* CSS ONLY for this homepage */
+#homepage-header {
+  text-align: center;
+  max-width: 600px;
+  margin: 2rem auto;
+  font-family: Arial, sans-serif;
+}
 
-Welcome to my website! I'm a [your profession/student] specializing in [your field].
+#homepage-header img {
+  width: 200px; 
+  height: 200px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 3px solid #2c3e50;
+}
 
-## Quick Links
-- [About Me](about.qmd)
-- [My Projects](projects.qmd)
+#homepage-header h1 {
+  color: #2c3e50;
+  margin: 1rem 0 0.5rem;
+  font-size: 2.3rem;
+}
+
+#homepage-header p {
+  font-size: 1.1rem;
+  line-height: 1.5;
+  color: #34495e;
+  margin-bottom: 1.5rem;
+}
+
+.home-links {
+  margin-top: 1rem;
+}
+<div id="homepage-header"> ![Ben Baur](images/headshot.jpg)
+
+Ben Baur
+Environmental Science student at UC Santa Barbara specializing in marine ecosystem conservation. Combining data analysis with fieldwork to develop sustainable solutions for coastal communities.
+
+<div class="home-links"> [About Me](about.qmd) | [Projects](projects.qmd) | [Contact](#contact) </div> </div><section id="contact"> ## Contact - Email: bbaur@example.com - LinkedIn: [linkedin.com/in/benbaur](https://linkedin.com/in/benbaur) - GitHub: [github.com/ben523522](https://github.com/ben523522) </section> ```
