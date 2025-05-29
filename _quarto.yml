@@ -6,8 +6,6 @@ website:
   title: "Ben Baur"
   navbar:
     left:
-      - href: index.html
-        text: Home
       - href: about.html
         text: About
       - href: projects.html
