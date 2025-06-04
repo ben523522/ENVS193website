@@ -1,5 +1,5 @@
 ---
-title: "Ben Baur"
+title: ""
 ---
 
 ```{=html}
@@ -63,7 +63,9 @@ title: "Ben Baur"
 
 <ul class="contact-list">
 
-<li>Email: bbaur\@example.com</li>
+
+<li>Email: <a href="mailto:bbaur@ucsb.edu?subject=Hi&body=This%20is%20the%20body">bbaur@ucsb.edu</a></li>
+
 
 <li>LinkedIn: <a href="www.linkedin.com/in/benjamin-baur-b37171360">linkedin.com/in/benbaur</a></li>
 
