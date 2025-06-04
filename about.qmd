@@ -42,25 +42,25 @@ title: "About Me"
 <div class="about-section">
   <h2>My Story</h2>
   <p>I grew up in Santa Barbara and graduated from SB High School. My interest in environmental science started with our local Earth Day events, where I loved learning about nature. Living here also gave me plenty of time outdoors—hiking, beach trips, and watching winter sunsets at Sands Beach. Those experiences made me want to study and protect California’s environment.</p>
-  
-<div class="photo-container">
-  <img src="images/about1.jpg" alt="Santa Barbara sunset" class="about-img single-img">
-</div>
-
 
 <div class="about-section">
-  <h2>Interests</h2>
-  <p>I love to explore outdoors, especially with friends. Hiking and biking to skiing and swimming - I enjoy it all.</p>
-  
-<div class="photo-container">
-  <img src="images/about2.jpg" alt="Hiking adventure" class="about-img double-img">
-  <img src="images/about3.jpg" alt="Beach day" class="about-img double-img">
+  <img src="images/about1.jpg" alt="Santa Barbara sunset" class="about-img" />
+  <p class="caption">Sunset from sands beach in January</p>
 </div>
+
+<div class="about-section">
+  <h2>Nature</h2>
+  <p>The great outdoors are my favorite place to be with friends. From Hiking to skiing I like it all!</p>
+</div>
+
+<div class="photo-container">
+  <img src="images/about2.jpg" alt="Grill setup" class="about-img double-img">
+  <img src="images/about3.jpg" alt="BBQ results" class="about-img double-img">
 
 
 <div class="about-section">
   <h2>Cooking</h2>
-  <p>One of my favorite pastimes is making BBQ on the grill outside my student housing. From tacos to ribs to steaks - I grill it all!</p>
+  <p>One of my favorite pastimes is making BBQ. I often use sustainable oak wood leftover from tree trimming. </p>
   
 <div class="photo-container">
   <img src="images/about4.jpg" alt="Grill setup" class="about-img double-img">
