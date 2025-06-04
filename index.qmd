@@ -75,5 +75,6 @@ title: ""
 
 </section>
 
-<a href="resume.pdf" class="resume-link" download>Download My Resume</a>
+<a href="resume.pdf" class="resume-link" target="_blank" rel="noopener">View My Resume</a>
+
 :::
