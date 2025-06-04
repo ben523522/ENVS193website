@@ -1,5 +1,106 @@
 ---
-title: "exploration"
+title: "Exploring Santa Barbara's Creeks"
 ---
-## exploring creeks
-placeholdersds
+
+<style>
+.about-section {
+  margin-bottom: 3rem;
+  padding-bottom: 2rem;
+  border-bottom: 1px solid #eee;
+}
+
+.photo-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin: 1.5rem 0;
+}
+
+.about-img {
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  width: 100%;
+  max-width: 400px;
+  height: auto;
+}
+
+.single-img {
+  width: 100%;
+}
+
+.double-img {
+  width: calc(50% - 0.5rem);
+}
+
+@media (max-width: 768px) {
+  .double-img {
+    width: 100%;
+  }
+}
+</style>
+
+<div style="margin: 8rem 0;"></div>
+
+<h2>San Jose Creek</h2>
+<p>I grew up in the foothills of the Santa Ynez Mountains, right near San Jose Creek. As a kid, I explored the local trails, making rope swings from trees and building forts and bike jumps. I’ve hiked the entire creek system and discovered a premier swimming hole several miles upstream from where I live. This swimming hole was carved out of solid sandstone by flowing water, forming what is almost a natural infinity pool.</p>
+
+<div class="about-section">
+  <img src="images/explore1.jpg" alt="San Jose creek pool" class="about-img" />
+  <p class="caption">San Jose Creek swimming hole</p>
+
+<div style="margin: 4rem 0;"></div>
+
+<div class="about-section">
+  <h2>San Antonio Creek</h2>
+  <p>One hot March day, I hiked up the San Antonio Creek system starting at its intersection with Highway 154. Along the way, I found many interesting sights and a few decent—but not great—swimming holes. The first notable feature was a natural waterslide carved into the sandstone by the steady trickle of water.</p>
+
+<div class="about-section">
+  <img src="images/explore3.jpg" alt="San Antonio Creek natural waterslide" class="about-img" />
+  <p class="caption">Natural waterslide on San Antonio Creek</p>
+
+  <p>Further up the canyon, I encountered a steep set of waterfalls. Most of the pools were just large enough to submerge a person but not to float in. Some sections required steep and exposed rock scrambling.</p>
+
+<div class="about-section">
+  <img src="images/explore4.jpg" alt="Waterfalls and steep sandstone canyon walls" class="about-img" />
+  <p class="caption">Waterfalls and steep sandstone canyon walls</p>
+
+  <p>Near the end of the hike, I discovered a fascinating canyon carved through a massive sandstone formation. It likely took hundreds of thousands of years for water to cut its way through the rock. The canyon walls reach roughly 300 feet tall in places. This unique canyon only exists where the sandstone is strong enough to resist collapse, unlike the gentler slopes found elsewhere along the creek.</p>
+
+<div class="about-section">
+  <img src="images/explore5.jpg" alt="Steep sandstone canyon walls" class="about-img" />
+  <p class="caption">Steep sandstone canyon walls</p>
+  
+<div style="margin: 4rem 0;"></div> 
+  
+<div class="about-section">
+  <h2>Tecolote Canyon</h2>
+  <p>Tecolote Canyon is home to another popular front-country swimming hole. It’s much larger than the one at San Jose Creek but not quite as picturesque. A massive boulder there can be jumped off, but access is challenging since you have to hike down from Camino Cielo and back up. The ocean side is all private land.</p>
+
+<div class="about-section">
+  <img src="images/explore2.jpg" alt="Tecolote swimming hole" class="about-img" />
+  <p class="caption">Tecolote Canyon swimming hole</p>
+
+<div style="margin: 4rem 0;"></div>
+
+<div class="about-section">
+  <h2>Santa Ynez River</h2>
+  <p>Last but not least, I visited the Santa Ynez River just two weeks ago to go cliff jumping, following the reopening of Paradise Road. This river carries many times the flow of the front-country creeks, and its swimming holes are exceptional and warmer than the ocean. However, the water isn’t as clear as the creeks. The spot I went to features a cliff with handholds for climbing and jumping into deep water.</p>
+
+<div class="about-section">
+  <img src="images/explore6.jpg" alt="Santa Ynez River swimming hole" class="about-img" />
+  <p class="caption">Santa Ynez River swimming hole</p>
+
+
+
+:::{.map-container}
+
+<iframe 
+  src="https://www.google.com/maps/d/u/0/embed?mid=11ER_jJJ8aJTnbKLsLWQaUrALiVpYFE0&ehbc=2E312F" 
+  width="100%" 
+  height="480" 
+  style="border:0;" 
+  allowfullscreen="" 
+  loading="lazy">
+</iframe>
+
+:::

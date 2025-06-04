@@ -45,7 +45,7 @@ title: "About Me"
 
 <div class="about-section">
   <img src="images/about1.jpg" alt="Santa Barbara sunset" class="about-img" />
-  <p class="caption">Sunset from sands beach in January</p>
+  <p class="caption">Sunset from Sands beach in January</p>
 </div>
 
 <div class="about-section">
@@ -59,8 +59,8 @@ title: "About Me"
 
 
 <div class="about-section">
-  <h2>Cooking</h2>
-  <p>One of my favorite pastimes is making BBQ. I often use sustainable oak wood leftover from tree trimming. </p>
+  <h2>BBQ</h2>
+  <p>One of my favorite pastimes is making slow smoked BBQ. I often use sustainable oak wood leftover from tree trimming which has amazing flavor. </p>
   
 <div class="photo-container">
   <img src="images/about4.jpg" alt="Grill setup" class="about-img double-img">
