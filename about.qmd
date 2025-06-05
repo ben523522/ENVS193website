@@ -46,17 +46,18 @@ title: "About Me"
 <div class="about-section">
   <img src="images/about1.jpg" alt="Santa Barbara sunset" class="about-img" />
   <p class="caption">Sunset from Sands beach in January</p>
-</div>
+
+<div style="margin: 4rem 0;"></div>
 
 <div class="about-section">
   <h2>Nature</h2>
   <p>The great outdoors are my favorite place to be with friends. From Hiking to skiing I like it all!</p>
-</div>
 
 <div class="photo-container">
   <img src="images/about2.jpg" alt="Grill setup" class="about-img double-img">
   <img src="images/about3.jpg" alt="BBQ results" class="about-img double-img">
 
+<div style="margin: 4rem 0;"></div>
 
 <div class="about-section">
   <h2>BBQ</h2>

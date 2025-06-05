@@ -39,7 +39,7 @@ title: "Exploring Santa Barbara's Creeks"
 }
 </style>
 
-<div style="margin: 8rem 0;"></div>
+<div style="margin: 6rem 0;"></div>
 
 <h2>San Jose Creek</h2>
 <p>I grew up in the foothills of the Santa Ynez Mountains, right near San Jose Creek. As a kid, I explored the local trails, making rope swings from trees and building forts and bike jumps. I’ve hiked the entire creek system and discovered a premier swimming hole several miles upstream from where I live. This swimming hole was carved out of solid sandstone by flowing water, forming what is almost a natural infinity pool.</p>
@@ -52,19 +52,19 @@ title: "Exploring Santa Barbara's Creeks"
 
 <div class="about-section">
   <h2>San Antonio Creek</h2>
-  <p>One hot March day, I hiked up the San Antonio Creek system starting at its intersection with Highway 154. Along the way, I found many interesting sights and a few decent—but not great—swimming holes. The first notable feature was a natural waterslide carved into the sandstone by the steady trickle of water.</p>
+  <p>One hot March day just this year, I hiked up the San Antonio Creek system starting at its intersection with Highway 154. Along the way, I found many interesting sights and a few decent—but not great—swimming holes. The first notable feature was a natural waterslide carved into the sandstone by the steady trickle of water.</p>
 
 <div class="about-section">
   <img src="images/explore3.jpg" alt="San Antonio Creek natural waterslide" class="about-img" />
   <p class="caption">Natural waterslide on San Antonio Creek</p>
 
-  <p>Further up the canyon, I encountered a steep set of waterfalls. Most of the pools were just large enough to submerge a person but not to float in. Some sections required steep and exposed rock scrambling.</p>
+  <p>Further up the canyon, I encountered a steep set of waterfalls. Most of the pools were just large enough to submerge a person but not to float in. Continuing up the canyon from here required steep and exposed rock scrambling to pass the waterfalls.</p>
 
 <div class="about-section">
   <img src="images/explore4.jpg" alt="Waterfalls and steep sandstone canyon walls" class="about-img" />
   <p class="caption">Waterfalls and steep sandstone canyon walls</p>
 
-  <p>Near the end of the hike, I discovered a fascinating canyon carved through a massive sandstone formation. It likely took hundreds of thousands of years for water to cut its way through the rock. The canyon walls reach roughly 300 feet tall in places. This unique canyon only exists where the sandstone is strong enough to resist collapse, unlike the gentler slopes found elsewhere along the creek.</p>
+  <p>Near the end of the hike, I discovered a fascinating canyon carved through a massive sandstone formation. It likely took hundreds of thousands of years for water to cut its way through the rock. The canyon walls reach roughly 300 feet tall in places. This unique canyon only exists where the sandstone is strong enough to resist collapsing under its own weight. Most of the creek has less steep walls because they naturally landslide down</p>
 
 <div class="about-section">
   <img src="images/explore5.jpg" alt="Steep sandstone canyon walls" class="about-img" />
@@ -88,7 +88,9 @@ title: "Exploring Santa Barbara's Creeks"
 
 <div class="about-section">
   <img src="images/explore6.jpg" alt="Santa Ynez River swimming hole" class="about-img" />
-  <p class="caption">Santa Ynez River swimming hole</p>
+  <p class="caption">Santa Ynez River swimming hole (I am midair!)</p>
+
+<div style="margin: 4rem 0;"></div> 
 
 
 
@@ -104,3 +106,6 @@ title: "Exploring Santa Barbara's Creeks"
 </iframe>
 
 :::
+
+<p>Using the location data from the images I created a map showing the locations of everything I found!</p>
+

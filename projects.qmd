@@ -1,5 +1,84 @@
 ---
-title: "My Projects"
+title: "Projects"
+format: html
 ---
-## Current Work
-placeholder blah blah blahhhhh
+
+```{r, message=FALSE, warning=FALSE, echo=FALSE}
+library(tidyverse)
+library(broom)
+
+# Read data quietly
+df <- read_csv("dart_throws.csv", show_col_types = FALSE)
+
+# Calculate misses per turn
+df_misses <- df %>%
+  rowwise() %>%
+  mutate(Misses = sum(c_across(starts_with("throw")) == 0)) %>%
+  ungroup()
+
+# Fit linear regression model
+model <- lm(Misses ~ Turn, data = df_misses)
+model_tidy <- tidy(model)
+model_glance <- glance(model)
+
+```
+
+
+<h2>Darts Analysis</h2>
+
+I conducted a statistical analysis to evaluate my performance as a darts player. Over the course of a weekend, I recorded the results of multiple games in a simplified format. Unlike the official game, which includes multipliers for hitting the inner and outer rings, I chose to ignore these and only recorded whether each dart landed in one of the 20 numbered pie-slice sections (1 through 20). Any dart that missed the board entirely was recorded as a score of zero. Each turn has 6 throws, there were 40 turns total. I left the code for the plot vivible below showing the scatter plot with trendline for misses. 
+
+```{r, message=FALSE, warning=FALSE, echo=TRUE}
+
+ggplot(df_misses, aes(x = Turn, y = Misses)) +
+  geom_point(size = 4, color = "steelblue", alpha = 0.7) +
+  geom_smooth(method = "lm", se = TRUE, color = "#D72631", linetype = "dashed", size = 1) +
+  labs(
+    title = "Dartboard Misses Per Turn",
+    subtitle = "",
+    x = "Turn Number",
+    y = "Number of Misses per 6 Throws"
+  ) +
+  theme_minimal(base_size = 15) +
+  theme(
+    plot.title = element_text(face = "bold", size = 20, color = "#3E3E3E"),
+    plot.subtitle = element_text(size = 14, color = "#6D6D6D", margin = margin(b = 10)),
+    axis.title = element_text(face = "bold"),
+    legend.position = "none"
+  )
+
+
+```
+
+<div style="margin: 4rem 0;"></div>
+
+### Statistical Analysis of Misses per Turn
+
+#### Performance Over Time
+
+To evaluate whether my performance improves as I play more, I ran a simple linear regression. The model looks at the number of misses per turn as the response variable and the turn number as the predictor.
+
+The regression equation is:
+
+**Misses = 1.17 - 0.0239 × Turn**
+
+#### What the numbers mean:
+
+- **Intercept (1.17):** At the start (Turn 0), I missed about 1.17 darts out of 6 on average.
+- **Slope (-0.0239):** On average, I missed about 0.024 fewer darts each turn — suggesting slight improvement.
+
+#### Is it significant?
+
+- The **p-value** for the slope is **0.026**, which is below the 0.05 threshold, so the trend is statistically significant.
+- The **t-value** of **-2.31** also supports that this isn't due to random variation.
+- That said, my dataset is relatively small, so while the trend is promising, more data would give stronger evidence.
+
+<div style="margin: 4rem 0;"></div>
+
+<h2>Final Project For ENVS 155</h2>
+
+For this final project in ENV S 155, I am exploring strategies to address housing affordability challenges in Santa Barbara. Acting in a hypothetical role as a Sustainability and Resilience Intern, I am researching and proposing actionable solutions to improve the sustainability and resilience of the local housing environment. The focus is on developing innovative, equitable approaches that respond to the complex social and economic factors contributing to housing insecurity and displacement. My proposal draws on relevant resilience criteria such as equity, quality, and ownership, and includes an original visual proof of concept to communicate the potential benefits of the project.
+
+
+
+
