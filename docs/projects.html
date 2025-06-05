@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>My Projects – Ben Baur</title>
+<title>Projects – Ben Baur</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -19,6 +19,41 @@ ul.task-list li input[type="checkbox"] {
   width: 0.8em;
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
+}
+/* CSS for syntax highlighting */
+html { -webkit-text-size-adjust: 100%; }
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
 }
 </style>
 
@@ -117,7 +152,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">My Projects</h1>
+<h1 class="title">Projects</h1>
 </div>
 
 
@@ -134,11 +169,70 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<section id="current-work" class="level2">
-<h2 data-anchor-id="current-work">Current Work</h2>
-<p>placeholder blah blah blahhhhh</p>
+<h2>
+Darts Analysis
+</h2>
+<p>I conducted a statistical analysis to evaluate my performance as a darts player. Over the course of a weekend, I recorded the results of multiple games in a simplified format. Unlike the official game, which includes multipliers for hitting the inner and outer rings, I chose to ignore these and only recorded whether each dart landed in one of the 20 numbered pie-slice sections (1 through 20). Any dart that missed the board entirely was recorded as a score of zero. Each turn has 6 throws, there were 40 turns total. I left the code for the plot vivible below showing the scatter plot with trendline for misses.</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="fu">ggplot</span>(df_misses, <span class="fu">aes</span>(<span class="at">x =</span> Turn, <span class="at">y =</span> Misses)) <span class="sc">+</span></span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_point</span>(<span class="at">size =</span> <span class="dv">4</span>, <span class="at">color =</span> <span class="st">"steelblue"</span>, <span class="at">alpha =</span> <span class="fl">0.7</span>) <span class="sc">+</span></span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_smooth</span>(<span class="at">method =</span> <span class="st">"lm"</span>, <span class="at">se =</span> <span class="cn">TRUE</span>, <span class="at">color =</span> <span class="st">"#D72631"</span>, <span class="at">linetype =</span> <span class="st">"dashed"</span>, <span class="at">size =</span> <span class="dv">1</span>) <span class="sc">+</span></span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a>  <span class="fu">labs</span>(</span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a>    <span class="at">title =</span> <span class="st">"Dartboard Misses Per Turn"</span>,</span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a>    <span class="at">subtitle =</span> <span class="st">""</span>,</span>
+<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a>    <span class="at">x =</span> <span class="st">"Turn Number"</span>,</span>
+<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a>    <span class="at">y =</span> <span class="st">"Number of Misses per 6 Throws"</span></span>
+<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a>  ) <span class="sc">+</span></span>
+<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a>  <span class="fu">theme_minimal</span>(<span class="at">base_size =</span> <span class="dv">15</span>) <span class="sc">+</span></span>
+<span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a>  <span class="fu">theme</span>(</span>
+<span id="cb1-12"><a href="#cb1-12" aria-hidden="true" tabindex="-1"></a>    <span class="at">plot.title =</span> <span class="fu">element_text</span>(<span class="at">face =</span> <span class="st">"bold"</span>, <span class="at">size =</span> <span class="dv">20</span>, <span class="at">color =</span> <span class="st">"#3E3E3E"</span>),</span>
+<span id="cb1-13"><a href="#cb1-13" aria-hidden="true" tabindex="-1"></a>    <span class="at">plot.subtitle =</span> <span class="fu">element_text</span>(<span class="at">size =</span> <span class="dv">14</span>, <span class="at">color =</span> <span class="st">"#6D6D6D"</span>, <span class="at">margin =</span> <span class="fu">margin</span>(<span class="at">b =</span> <span class="dv">10</span>)),</span>
+<span id="cb1-14"><a href="#cb1-14" aria-hidden="true" tabindex="-1"></a>    <span class="at">axis.title =</span> <span class="fu">element_text</span>(<span class="at">face =</span> <span class="st">"bold"</span>),</span>
+<span id="cb1-15"><a href="#cb1-15" aria-hidden="true" tabindex="-1"></a>    <span class="at">legend.position =</span> <span class="st">"none"</span></span>
+<span id="cb1-16"><a href="#cb1-16" aria-hidden="true" tabindex="-1"></a>  )</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="projects_files/figure-html/unnamed-chunk-2-1.png" class="img-fluid figure-img" width="672"></p>
+</figure>
+</div>
+</div>
+</div>
+<div style="margin: 4rem 0;">
+
+</div>
+<section id="statistical-analysis-of-misses-per-turn" class="level3">
+<h3>Statistical Analysis of Misses per Turn</h3>
+<section id="performance-over-time" class="level4">
+<h4 data-anchor-id="performance-over-time">Performance Over Time</h4>
+<p>To evaluate whether my performance improves as I play more, I ran a simple linear regression. The model looks at the number of misses per turn as the response variable and the turn number as the predictor.</p>
+<p>The regression equation is:</p>
+<p><strong>Misses = 1.17 - 0.0239 × Turn</strong></p>
+</section>
+<section id="what-the-numbers-mean" class="level4">
+<h4 data-anchor-id="what-the-numbers-mean">What the numbers mean:</h4>
+<ul>
+<li><strong>Intercept (1.17):</strong> At the start (Turn 0), I missed about 1.17 darts out of 6 on average.</li>
+<li><strong>Slope (-0.0239):</strong> On average, I missed about 0.024 fewer darts each turn — suggesting slight improvement.</li>
+</ul>
+</section>
+<section id="is-it-significant" class="level4">
+<h4>Is it significant?</h4>
+<ul>
+<li>The <strong>p-value</strong> for the slope is <strong>0.026</strong>, which is below the 0.05 threshold, so the trend is statistically significant.</li>
+<li>The <strong>t-value</strong> of <strong>-2.31</strong> also supports that this isn’t due to random variation.</li>
+<li>That said, my dataset is relatively small, so while the trend is promising, more data would give stronger evidence.</li>
+</ul>
+<div style="margin: 4rem 0;">
+
+</div>
+<h2 data-anchor-id="is-it-significant">
+Final Project For ENVS 155
+</h2>
+<p>For this final project in ENV S 155, I am exploring strategies to address housing affordability challenges in Santa Barbara. Acting in a hypothetical role as a Sustainability and Resilience Intern, everyone in the class is choosing a project focused on the community. I am researching and proposing actionable solutions to improve the sustainability and resilience of the local housing environment. The focus is on developing innovative, equitable approaches that respond to the complex social and economic factors contributing to housing insecurity and displacement. My proposal draws on relevant resilience criteria such as equity, quality, and ownership, and includes an original visual proof of concept to communicate the potential benefits of the project.</p>
 
 
+</section>
 </section>
 
 </main> <!-- /main -->
