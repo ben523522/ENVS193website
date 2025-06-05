@@ -41,7 +41,7 @@ title: "About Me"
 
 <div class="about-section">
   <h2>My Story</h2>
-  <p>I grew up in Santa Barbara and graduated from SB High School. My interest in environmental science started with our local Earth Day events, where I loved learning about nature. Living here also gave me plenty of time outdoors—hiking, beach trips, and watching winter sunsets at Sands Beach. Those experiences made me want to study and protect California’s environment.</p>
+  <p>I grew up in Santa Barbara and graduated from SB High School. My interest in environmental science started with our local Earth Day events, where I loved learning about nature. Living here also gave me plenty of time outdoors—hiking, beach trips, and watching winter sunsets at Sands Beach. Those experiences made me want to study and protect California’s environment!</p>
 
 <div class="about-section">
   <img src="images/about1.jpg" alt="Santa Barbara sunset" class="about-img" />
