@@ -18,41 +18,27 @@
     "href": "index.html",
     "title": "\nBen Baur\n",
     "section": "",
-    "text": "Ben Baur\n\n\nEnvironmental Science student at UC Santa Barbara\n\n\n\nContact\n\n\n\nEmail: bbaur@ucsb.edu\n\n\nLinkedIn: linkedin.com/in/benbaur\n\n\nGitHub: github.com/ben523522\n\n\n\nDownload My Resume"
+    "text": "Ben Baur\n\n\nEnvironmental Science student at UC Santa Barbara\n\n\n\nContact\n\n\n\nEmail: bbaur@ucsb.edu\n\n\nLinkedIn: linkedin.com/in/benbaur\n\n\nGitHub: github.com/ben523522\n\n\n\nView My Resume"
   },
   {
     "objectID": "about.html",
     "href": "about.html",
     "title": "About Me",
     "section": "",
-    "text": "My Story\n\n\nI grew up in Santa Barbara and graduated from SB High School. My interest in environmental science started with our local Earth Day events, where I loved learning about nature. Living here also gave me plenty of time outdoors—hiking, beach trips, and watching winter sunsets at Sands Beach. Those experiences made me want to study and protect California’s environment.\n\n\n\n\n\n\nInterests\n\n\nI love to explore outdoors, especially with friends. Hiking and biking to skiing and swimming - I enjoy it all.\n\n\n \n\n\n\nCooking\n\n\nOne of my favorite pastimes is making BBQ on the grill outside my student housing. From tacos to ribs to steaks - I grill it all!"
+    "text": "My Story\n\n\nI grew up in Santa Barbara and graduated from SB High School. My interest in environmental science started with our local Earth Day events, where I loved learning about nature. Living here also gave me plenty of time outdoors—hiking, beach trips, and watching winter sunsets at Sands Beach. Those experiences made me want to study and protect California’s environment.\n\n\n\n\nSunset from Sands beach in January\n\n\n\n\n\n\nNature\n\n\nThe great outdoors are my favorite place to be with friends. From Hiking to skiing I like it all!\n\n\n \n\n\n\n\n\nBBQ\n\n\nOne of my favorite pastimes is making slow smoked BBQ. I often use sustainable oak wood leftover from tree trimming which has amazing flavor."
   },
   {
     "objectID": "exploration.html",
     "href": "exploration.html",
-    "title": "exploration",
+    "title": "Exploring Santa Barbara’s Creeks",
     "section": "",
-    "text": "placeholdersds"
-  },
-  {
-    "objectID": "exploration.html#exploring-creeks",
-    "href": "exploration.html#exploring-creeks",
-    "title": "exploration",
-    "section": "",
-    "text": "placeholdersds"
+    "text": "San Jose Creek\n\n\nI grew up in the foothills of the Santa Ynez Mountains, right near San Jose Creek. As a kid, I explored the local trails, making rope swings from trees and building forts and bike jumps. I’ve hiked the entire creek system and discovered a premier swimming hole several miles upstream from where I live. This swimming hole was carved out of solid sandstone by flowing water, forming what is almost a natural infinity pool.\n\n\n\n\nSan Jose Creek swimming hole\n\n\n\n\n\n\nSan Antonio Creek\n\n\nOne hot March day just this year, I hiked up the San Antonio Creek system starting at its intersection with Highway 154. Along the way, I found many interesting sights and a few decent—but not great—swimming holes. The first notable feature was a natural waterslide carved into the sandstone by the steady trickle of water.\n\n\n\n\nNatural waterslide on San Antonio Creek\n\n\nFurther up the canyon, I encountered a steep set of waterfalls. Most of the pools were just large enough to submerge a person but not to float in. Continuing up the canyon from here required steep and exposed rock scrambling to pass the waterfalls.\n\n\n\n\nWaterfalls and steep sandstone canyon walls\n\n\nNear the end of the hike, I discovered a fascinating canyon carved through a massive sandstone formation. It likely took hundreds of thousands of years for water to cut its way through the rock. The canyon walls reach roughly 300 feet tall in places. This unique canyon only exists where the sandstone is strong enough to resist collapsing under its own weight. Most of the creek has less steep walls because they naturally landslide down\n\n\n\n\nSteep sandstone canyon walls\n\n\n\n\n\n\nTecolote Canyon\n\n\nTecolote Canyon is home to another popular front-country swimming hole. It’s much larger than the one at San Jose Creek but not quite as picturesque. A massive boulder there can be jumped off, but access is challenging since you have to hike down from Camino Cielo and back up. The ocean side is all private land.\n\n\n\n\nTecolote Canyon swimming hole\n\n\n\n\n\n\nSanta Ynez River\n\n\nLast but not least, I visited the Santa Ynez River just two weeks ago to go cliff jumping, following the reopening of Paradise Road. This river carries many times the flow of the front-country creeks, and its swimming holes are exceptional and warmer than the ocean. However, the water isn’t as clear as the creeks. The spot I went to features a cliff with handholds for climbing and jumping into deep water.\n\n\n\n\nSanta Ynez River swimming hole (I am midair!)\n\n\n\n\n\n\n\n\n\nUsing the location data from the images I created a map showing the locations of everything I found!"
   },
   {
     "objectID": "projects.html",
     "href": "projects.html",
-    "title": "My Projects",
+    "title": "Projects",
     "section": "",
-    "text": "placeholder blah blah blahhhhh"
-  },
-  {
-    "objectID": "projects.html#current-work",
-    "href": "projects.html#current-work",
-    "title": "My Projects",
-    "section": "",
-    "text": "placeholder blah blah blahhhhh"
+    "text": "Darts Analysis\n\nI conducted a statistical analysis to evaluate my performance as a darts player. Over the course of a weekend, I recorded the results of multiple games in a simplified format. Unlike the official game, which includes multipliers for hitting the inner and outer rings, I chose to ignore these and only recorded whether each dart landed in one of the 20 numbered pie-slice sections (1 through 20). Any dart that missed the board entirely was recorded as a score of zero. Each turn has 6 throws, there were 40 turns total. I left the code for the plot vivible below showing the scatter plot with trendline for misses.\n\nggplot(df_misses, aes(x = Turn, y = Misses)) +\n  geom_point(size = 4, color = \"steelblue\", alpha = 0.7) +\n  geom_smooth(method = \"lm\", se = TRUE, color = \"#D72631\", linetype = \"dashed\", size = 1) +\n  labs(\n    title = \"Dartboard Misses Per Turn\",\n    subtitle = \"\",\n    x = \"Turn Number\",\n    y = \"Number of Misses per 6 Throws\"\n  ) +\n  theme_minimal(base_size = 15) +\n  theme(\n    plot.title = element_text(face = \"bold\", size = 20, color = \"#3E3E3E\"),\n    plot.subtitle = element_text(size = 14, color = \"#6D6D6D\", margin = margin(b = 10)),\n    axis.title = element_text(face = \"bold\"),\n    legend.position = \"none\"\n  )\n\n\n\n\n\n\n\n\n\n\n\n\nStatistical Analysis of Misses per Turn\n\nPerformance Over Time\nTo evaluate whether my performance improves as I play more, I ran a simple linear regression. The model looks at the number of misses per turn as the response variable and the turn number as the predictor.\nThe regression equation is:\nMisses = 1.17 - 0.0239 × Turn\n\n\nWhat the numbers mean:\n\nIntercept (1.17): At the start (Turn 0), I missed about 1.17 darts out of 6 on average.\nSlope (-0.0239): On average, I missed about 0.024 fewer darts each turn — suggesting slight improvement.\n\n\n\nIs it significant?\n\nThe p-value for the slope is 0.026, which is below the 0.05 threshold, so the trend is statistically significant.\nThe t-value of -2.31 also supports that this isn’t due to random variation.\nThat said, my dataset is relatively small, so while the trend is promising, more data would give stronger evidence.\n\n\n\n\n\nFinal Project For ENVS 155\n\nFor this final project in ENV S 155, I am exploring strategies to address housing affordability challenges in Santa Barbara. Acting in a hypothetical role as a Sustainability and Resilience Intern, everyone in the class is choosing a project focused on the community. I am researching and proposing actionable solutions to improve the sustainability and resilience of the local housing environment. The focus is on developing innovative, equitable approaches that respond to the complex social and economic factors contributing to housing insecurity and displacement. My proposal draws on relevant resilience criteria such as equity, quality, and ownership, and includes an original visual proof of concept to communicate the potential benefits of the project."
   }
 ]
